@@ -14,4 +14,4 @@ I am a senior student at the University of Washington Bothell studying Data Visu
 - https://docs.google.com/presentation/d/1EVq_JOlwKODEXlQ2Wklwna96U5Kz5NY8iv1cdTTVSmI/edit?usp=sharing
 
 \
-![](introductionImage.png)
+<img src="introductionImage.png" width="500">
