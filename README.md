@@ -12,3 +12,6 @@ I am a senior student at the University of Washington Bothell studying Data Visu
 - https://jeffreychoiuw.shinyapps.io/AgingJobProspectsGroup5/
 - https://public.tableau.com/app/profile/jeffrey.choi6499/viz/FreeFloBoxAnalyzingProductUsageandClimate/FreeFloBoxDashboard 
 - https://docs.google.com/presentation/d/1EVq_JOlwKODEXlQ2Wklwna96U5Kz5NY8iv1cdTTVSmI/edit?usp=sharing
+
+\
+![](introductionImage.png)
