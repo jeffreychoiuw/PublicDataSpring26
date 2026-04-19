@@ -13,5 +13,5 @@ Flourish: [Seattle Average Holiday Traffic 2021-2026](https://public.flourish.st
 \
 Data Source: [Traffic Count Studies by Hour Bins](https://data.seattle.gov/Transportation/Traffic-Count-Studies-by-Hour-Bins/g32r-fjzp/about_data)
 
-<img src="Seattle Average Holiday Traffic 2021-2026.png">
-<img src="Seattle Holiday Traffic Study Counts 2021-2026.png">
+<img src="Seattle Average Holiday Traffic 2021-2026.png" width=800>
+<img src="Seattle Holiday Traffic Study Counts 2021-2026.png" width=800>
