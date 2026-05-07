@@ -1,0 +1,38 @@
+/* Page */
+body {
+  font-family: "Georgia", serif;
+  padding: 1em;
+  text-align: center;
+  color: white;
+  background-color: #1a1d21;
+}
+
+/* Title */
+h1 {
+  font-size: 3.5em;
+  margin: 0.25em;
+}
+
+/* Author and Date */
+h2 {
+  font-size: 2em;
+  margin: 0.5em 16.75em;
+  text-align: left;
+}
+
+/* Paragraph */
+p {
+  font-size: 1em;
+  margin: 2em 33.5em;
+  text-align: left;
+}
+
+/* Link */
+a {
+  color: goldenrod;
+}
+
+/* Image Source */
+.image-source {
+  margin: 0em 33.5em;
+}
