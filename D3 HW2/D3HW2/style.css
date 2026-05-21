@@ -1,0 +1,79 @@
+/* Global font */
+body {
+    font-family: sans-serif;
+}
+
+/* Axes */
+.axis path, 
+.axis line{
+    stroke: black;
+}
+
+.axis text{
+    font-size: 12px;
+    fill: black;
+    }
+
+.label{
+    font-size: 16px;
+    fill: black;
+    font-weight: bold;
+}
+
+
+/* Lines */
+.lineAlone {
+    fill: none; 
+    stroke: #e33719;
+    stroke-width: 3px;
+}
+
+.lineCarpool {
+    fill: none; 
+    stroke: #f5a031;
+    stroke-width: 3px;
+}
+
+.linePublic {
+    fill: none; 
+    stroke: #569ae8;
+    stroke-width: 3px;
+}
+
+.lineWalk {
+    fill: none; 
+    stroke: #84e01b;
+    stroke-width: 3px;
+}
+
+.lineBike {
+    fill: none; 
+    stroke: #ba6ded;
+    stroke-width: 3px;
+}
+
+.lineRemote {
+    fill: none; 
+    stroke: #2b343d;
+    stroke-width: 3px;
+}
+
+
+/* Header */
+.header{
+    font-size: 30px;
+    fill: black;
+    font-weight: bold;
+}
+
+/* Author */
+.author{
+    font-size: 18px;
+    fill: black;
+}
+
+/* Source */
+.source{
+    font-size: 16px;
+    fill: black;
+}
