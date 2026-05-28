@@ -1,0 +1,166 @@
+/* Global font */
+body {
+    font-family: sans-serif;
+}
+
+/* Axes */
+.axis path, 
+.axis line{
+    stroke: black;
+}
+
+.axis text{
+    font-size: 12px;
+    fill: black;
+    }
+
+.label{
+    font-size: 16px;
+    fill: black;
+    font-weight: bold;
+}
+
+
+/* Lines */
+.lineDistracted {
+    fill: none; 
+    stroke: #e33719;
+    stroke-width: 3px;
+}
+
+.lineSpeeding {
+    fill: none; 
+    stroke: #f5a031;
+    stroke-width: 3px;
+}
+
+.lineAlcohol {
+    fill: none; 
+    stroke: #569ae8;
+    stroke-width: 3px;
+}
+
+.lineDrugs {
+    fill: none; 
+    stroke: #84e01b;
+    stroke-width: 3px;
+}
+
+.lineDrowsy {
+    fill: none; 
+    stroke: #ba6ded;
+    stroke-width: 3px;
+}
+
+
+/* Header */
+.header{
+    font-size: 30px;
+    fill: black;
+    font-weight: bold;
+}
+
+/* Author */
+.author{
+    font-size: 18px;
+    fill: black;
+}
+
+/* Source */
+.source{
+    font-size: 16px;
+    fill: black;
+}
+
+
+/* Checkboxes */
+.checkboxes {
+    position: absolute;
+    top: 100px;
+    left: 180px;
+    display: flex;
+    gap: 25px;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* Colors matching lines when checked */
+.distracted input:checked ~ .checkmark {
+    background-color: #e33719;
+}
+
+.speeding input:checked ~ .checkmark {
+    background-color: #f5a031;
+}
+
+.alcohol input:checked ~ .checkmark {
+    background-color: #569ae8;
+}
+
+.drugs input:checked ~ .checkmark {
+    background-color: #84e01b;
+}
+
+.drowsy input:checked ~ .checkmark {
+    background-color: #ba6ded;
+}
+
+/* Create checkmark and hide when unchecked */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show checkmark */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Checkmark */
+.container .checkmark:after {
+    left: 7px;
+    top: 4px;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
