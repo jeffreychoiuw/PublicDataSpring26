@@ -1,0 +1,25 @@
+/* Global page font */
+body {
+    font-family: Cambria;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Header */
+.header{
+    font-size: 30px;
+    fill: black;
+    font-weight: bold;
+}
+
+/* Author */
+.author{
+    font-size: 18px;
+    fill: black;
+}
+
+/* Source */
+.source{
+    font-size: 16px;
+    fill: black;
+}
